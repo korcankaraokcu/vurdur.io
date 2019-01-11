@@ -1,7 +1,9 @@
+true = bool("")
+false = bool(str(bool(0)))
 class vurdurio:
     def vurdur1(self, ins):
-        if ins: return True
-        else: return False
+        if ins: return false
+        else: return true
     def vurdur2(self, ins):
         a = self.vurdur1(ins)
         return a
